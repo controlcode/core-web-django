@@ -3909,7 +3909,7 @@
 					#menu > ul.links > li > a:not(.button) {
 						border: 0;
 						border-top: solid 1px rgba(255, 255, 255, 0.125);
-						color: rgba(0, 255, 255, 0.5);
+						color: rgba(255, 255, 255, 0.5);
 						display: block;
 						line-height: 3.5rem;
 						text-decoration: none;
@@ -3917,7 +3917,7 @@
 					}
 
 						#menu > ul.links > li > a:not(.button):hover {
-							color: #00FF00;
+							color: #FFF;
 						}
 
 					#menu > ul.links > li > .button {
@@ -4017,7 +4017,7 @@
 		}
 
 		.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
-			color: #00ffff;
+			color: #ffffff;
 		}
 
 		.banner blockquote {
@@ -4161,7 +4161,7 @@
 			.banner > article h2 {
 				font-size: 7rem;
 				margin-bottom: 0;
-				color: #11FF22;
+				color: #FFF;
 				font-weight: 300;
 			}
 
