@@ -1,23 +1,6 @@
+{% extends 'corp/base.html' %}
 {% load static %}
-<!-- Scripts -->
-   <script src="{% static 'corp/assets/js/jquery.min.js' %}"></script>
-   <script src="{% static 'corp/assets/js/jquery.scrollex.min.js' %}"></script>
-   <script src="{% static 'corp/assets/js/skel.min.js' %}"></script>
-   <script src="{% static 'corp/assets/js/util.js' %}"></script>
-   <script src="{% static 'corp/assets/js/main.js' %}"></script>
-
-   <!DOCTYPE HTML>
-
-<html>
-	<head>
-		<title>Enterprise</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="{% static "corp/assets/css/main.css" %}" />
-    <link rel="shortcut icon" href="{% static "corp/favicon/saturn-icon-213253/favicon.ico" %}">
-	</head>
-	<body class="subpage">
-
+{% block content %}
 		<!-- Header -->
 			<header id="header">
 				<div class="logo"><a href="index.html"></a></div>
@@ -88,5 +71,4 @@
 					&copy; 2012-2018. All rights reserved.
 				</div>
 			</footer>
-	</body>
-</html>
+{% endblock %}
