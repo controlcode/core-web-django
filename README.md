@@ -17,3 +17,11 @@ pipenv install
 cd django/cc
 pipenv run python manage.py runserver
 ```
+
+## Run Gunicorn locally
+
+Uncomment the static files url in urls.py
+Then run using this command
+```
+gunicorn -c gunicorn.py cc.wsgi:application
+```
