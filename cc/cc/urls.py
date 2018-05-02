@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', include('corp.urls')),
     path('admin/', admin.site.urls),
 ]
+
+""" This line is required to test Gunicorn locally. Must be removed from production deployments. """
+urlpatterns += staticfiles_urlpatterns()
