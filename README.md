@@ -23,5 +23,5 @@ pipenv run python manage.py runserver
 Uncomment the static files url in urls.py
 Then run using this command
 ```
-gunicorn -c gunicorn.py cc.wsgi:application --bind unix:/home/deploy/proj/cc.sock
+gunicorn -c gunicorn.py cc.wsgi:application --bind unix:/home/deploy/site/cc.sock
 ```
