@@ -25,7 +25,7 @@ SECRET_KEY = '_k(m5@zgbd42ae7yssz%j!@s5z=elninyuod#765e1kh8t-bs&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'localhost', '127.0.0.1', '139.59.164.167']
 
 GOOGLE_ANALYTICS = os.getenv('GOOGLE_ANALYTICS', "UA-XXXXX-Y")
 
@@ -125,6 +125,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "/home/deploy/static/")
 
 LOGGING = {
     'version': 1,

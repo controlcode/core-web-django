@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-""" This line is required to test Gunicorn locally. Must be removed from production deployments. """
+""" This line is required to test Gunicorn locally. Must be removed from production deployments. 
 urlpatterns += staticfiles_urlpatterns()
+"""
