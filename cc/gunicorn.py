@@ -19,8 +19,9 @@
 #
 
 import os
-PORT = os.getenv('PORT', 8000)
-bind = f"0.0.0.0:{PORT}"
+PORT = os.getenv('PORT', 8001)
+#bind = f"0.0.0.0:{PORT}"
+bind = "0.0.0.0:8001"
 backlog = 2048
 
 #
