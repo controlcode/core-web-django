@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 logger.info('Environment Configuration')
 logger.info('-------------------------')
 #logger.info(f'Google Analytics = {analytics}')
+logger.info("Google Analytics = {}".format(analytics))
 
 
 def index(request):
